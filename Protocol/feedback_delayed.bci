@@ -1,0 +1,35 @@
+BaselineBlock:	1
+
+LineColor:	[ 255 255 0 ]
+StdDevColor:	[ 150 150 0 ]
+Background:	[   0   0 0 ]
+
+%ConditionColors:	[  160  160 200 ; 100 100   0 ;  80  80   0 ; 80  80  0]
+%ConditionColors:	[   0   0 150 ;   0   0 200 ;   0   0 255 ]
+%ConditionColors:	[  55  55   0 ; 100 100   0 ;  70  70   0 ]
+%ConditionColors:	[ 255   0   0 ;   0 255   0 ;   0   0 255 ]
+%ConditionColors:	[   0   0 150 ;   0   0 200 ;   0   0 100 ; 0 100 0 ; 0 0 100 ]
+
+NrOfImages:	18
+
+%PICTURES 
+Image1:		fixation.jpg; 1,20   
+Image2:		fixation.jpg; 41,60
+Image3:		fixation.jpg; 81,100
+Image4:		fixation.jpg; 121,140
+Image5:		fixation.jpg; 161,180 
+Image6:		fixation.jpg; 201,220
+%Downreg
+Image7:		imagine.jpg; 21,38
+Image8:		imagine.jpg; 61,78
+Image9:		imagine.jpg; 101,118  
+Image10:		imagine.jpg; 141,158
+Image11:		imagine.jpg; 181,198
+Image12:		imagine.jpg; 221,238
+%Feedback
+Image13:		black.jpg; 39,40   
+Image14:		black.jpg; 79,80
+Image15:		black.jpg; 119,120
+Image16:		black.jpg; 159,160
+Image17:		black.jpg; 199,200
+Image18:		black.jpg; 239,240

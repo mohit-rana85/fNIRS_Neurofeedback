@@ -1,0 +1,68 @@
+BaselineBlock:	1
+Window_size: 232  240  500  420
+ImageFolder: './Protocol'
+LineColor:	[ 255 255 0 ]
+StdDevColor:	[ 150 150 0 ]
+Background:	[   0   0 0 ]
+
+%ConditionColors:	[  160  160 200 ; 100 100   0 ;  80  80   0 ; 80  80  0]
+%ConditionColors:	[   0   0 150 ;   0   0 200 ;   0   0 255 ]
+%ConditionColors:	[  55  55   0 ; 100 100   0 ;  70  70   0 ]
+%ConditionColors:	[ 255   0   0 ;   0 255   0 ;   0   0 255 ]
+%ConditionColors:	[   0   0 150 ;   0   0 200 ;   0   0 100 ; 0 100 0 ; 0 0 100 ]
+
+NrOfImages:	49
+
+%PICTURES 
+Image1:        black.jpg; 1,10
+Image2:		fixation.jpg; 11,13   
+Image3:		fixation.jpg; 23,25
+Image4:		fixation.jpg; 34,36
+Image5:		fixation.jpg; 47,49
+Image6:		fixation.jpg; 59,61 
+Image7:		fixation.jpg; 70,72
+Image8:		fixation.jpg; 81,83
+Image9:		fixation.jpg; 92,94
+Image10:	fixation.jpg; 105,107  
+Image11:	fixation.jpg; 118,120
+Image12:	fixation.jpg; 130,132
+Image13:	fixation.jpg; 142,144
+%pre-move
+Image14:	 pre_move_L.jpg; 14,16   
+Image15:	 pre_move_R.jpg; 26,27
+Image16:	 pre_move_R.jpg; 37,40
+Image17:	 pre_move_L.jpg; 50,52
+Image18:	 pre_move_L.jpg; 62,63
+Image19:	 pre_move_R.jpg; 73,74
+Image20:	 pre_move_L.jpg; 84,85   
+Image21:	 pre_move_R.jpg; 95,98
+Image22:	 pre_move_R.jpg; 108,111
+Image23:	 pre_move_L.jpg; 121,123
+Image24:	 pre_move_L.jpg; 133,135
+Image25:	 pre_move_R.jpg; 145,148
+%move
+Image26:	 move_L.jpg; 17,19   
+Image27:	 move_R.jpg; 28,30
+Image28:	 move_R.jpg; 41,43
+Image29:	 move_L.jpg; 53,55
+Image30:	 move_L.jpg; 64,66
+Image31:	 move_R.jpg; 75,77
+Image32:	 move_L.jpg; 86,88   
+Image33:	 move_R.jpg; 99,101
+Image34:	 move_R.jpg; 112,114
+Image35:	 move_L.jpg; 124,126
+Image36:	 move_L.jpg; 136,138
+Image37:     move_R.jpg; 149,151
+%ISI
+Image38:	 ISI.jpg; 20,22
+Image39:	 ISI.jpg; 31,33   
+Image40:	 ISI.jpg; 44,46
+Image41:	 ISI.jpg; 56,58
+Image42:	 ISI.jpg; 67,69
+Image43:	 ISI.jpg; 78,80
+Image44:	 ISI.jpg; 89,91
+Image45:	 ISI.jpg; 102,104   
+Image46:	 ISI.jpg; 115,117
+Image47:	 ISI.jpg; 127,129
+Image48:	 ISI.jpg; 139,141
+Image49:	 ISI.jpg; 152,154

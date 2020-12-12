@@ -1,0 +1,37 @@
+BaselineBlock:	1
+Window_size: 232  240  500  420
+ImageFolder: './Protocol'
+LineColor:	[ 255 255 0 ]
+StdDevColor:	[ 150 150 0 ]
+Background:	[   0   0 0 ]
+
+%ConditionColors:	[  160  160 200 ; 100 100   0 ;  80  80   0 ; 80  80  0]
+%ConditionColors:	[   0   0 150 ;   0   0 200 ;   0   0 255 ]
+%ConditionColors:	[  55  55   0 ; 100 100   0 ;  70  70   0 ]
+%ConditionColors:	[ 255   0   0 ;   0 255   0 ;   0   0 255 ]
+%ConditionColors:	[   0   0 150 ;   0   0 200 ;   0   0 100 ; 0 100 0 ; 0 0 100 ]
+
+NrOfImages:	19
+
+%PICTURES 
+Image1:         black.jpg;1,10
+Image2:		fixation.jpg; 11,16   
+Image3:		fixation.jpg; 32,37
+Image4:		fixation.jpg; 47,52
+Image5:		fixation.jpg; 65,70
+Image6:		fixation.jpg; 80,85 
+Image7:		fixation.jpg; 101,106
+%Downreg
+Image8:		 pre_move_L.jpg; 17,25
+Image9:		 pre_move_R.jpg; 38,40
+Image10:		 pre_move_R.jpg; 53,58  
+Image11:	 pre_move_L.jpg; 71,73
+Image12:	 pre_move_L.jpg; 86,94
+Image13:	 pre_move_R.jpg; 107,112
+%Feedback
+Image14:	 move_L.jpg; 26,31   
+Image15:	 move_R.jpg; 41,46
+Image16:	 move_R.jpg; 59,64
+Image17:	 move_L.jpg; 74,79
+Image18:	 move_L.jpg; 95,100
+Image19:	 move_R.jpg; 113,118

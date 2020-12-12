@@ -1,0 +1,24 @@
+BaselineBlock:	1
+Window_size: 232  240  500  420
+ImageFolder: './Protocol'
+LineColor:	[ 255 255 0 ]
+StdDevColor:	[ 150 150 0 ]
+Background:	[   0   0 0 ]
+
+%ConditionColors:	[  160  160 200 ; 100 100   0 ;  80  80   0 ; 80  80  0]
+%ConditionColors:	[   0   0 150 ;   0   0 200 ;   0   0 255 ]
+%ConditionColors:	[  55  55   0 ; 100 100   0 ;  70  70   0 ]
+%ConditionColors:	[ 255   0   0 ;   0 255   0 ;   0   0 255 ]
+%ConditionColors:	[   0   0 150 ;   0   0 200 ;   0   0 100 ; 0 100 0 ; 0 0 100 ]
+
+NrOfImages:	6
+
+%PICTURES 
+Image1:        black.jpg; 1,10
+Image2:		fixation.jpg; 11,30   
+Image3:		fixation.jpg; 51,70
+Image4:		fixation.jpg; 91,110
+Image5:		arrow_up_green.bmp; 31,50
+Image6:		arrow_up_green.bmp; 71,90 
+Image7:		arrow_up_green.bmp; 111,130
+ 

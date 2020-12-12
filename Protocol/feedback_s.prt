@@ -1,0 +1,37 @@
+
+FileVersion:        2
+
+ResolutionOfTime:   Volumes
+
+Experiment:         feedback
+
+BackgroundColor:    0 0 0
+TextColor:          255 255 255
+
+TimeCourseColor:    255 255 255
+TimeCourseThick:    3
+ReferenceFuncColor: 0 0 80
+ReferenceFuncThick: 3
+
+NrOfConditions:  2
+
+Baseline
+1
+   1   20
+Color: 50 50 255
+
+
+UpRegulation
+1
+  21   50
+Color: 50 255 50
+
+
+ConditionImageFolder: C:\Users\nirs\Desktop\hitachi\mutual_info\Protocol
+
+ConditionImageFiles: b_up-arrow.jpg r_up-arrow.jpg
+
+ConditionSequence:   1 2
+PerformanceCriteria: 0 1
+ResponseConditions:  0
+

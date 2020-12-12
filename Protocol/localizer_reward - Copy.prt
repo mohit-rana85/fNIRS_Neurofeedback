@@ -1,0 +1,52 @@
+
+FileVersion:        2
+
+ResolutionOfTime:   Volumes
+
+Experiment:         feedback
+
+BackgroundColor:    0 0 0
+TextColor:          255 255 255
+
+TimeCourseColor:    255 255 255
+TimeCourseThick:    3
+ReferenceFuncColor: 0 0 80
+ReferenceFuncThick: 3
+
+NrOfConditions:  3
+baseline
+6
+   11   16
+   32   37
+   47   52
+   65   70
+   80   85
+  101   106
+Color:  4 86 176
+
+pre_move
+6
+   17   25
+   38   40
+   53   58
+   71   73
+   86   94
+  107   112
+Color: 61 137 43
+
+move
+6
+   26   31
+   41   46
+   59   64
+   74   79
+   95   100
+  113   118
+Color: 255 137 43
+ConditionSequence:   1 2 3 1 2 3 1 2 3 1 2 3 1 2 3 1 2 3
+PerformanceCriteria: 9 1 0 9 1 0 9 1 0 9 1 0 9 1 0 9 1 0
+Down_UP_Regulation:  0 1 0 1 0 1 0 1 0 0 1 0 1 0 1 0 1 0
+Thermo_image_seq:    1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ResponseConditions:  0
+Initial_Rest:10
+BCI_file: localizer_reward.bci

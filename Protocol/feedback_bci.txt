@@ -1,0 +1,66 @@
+
+FileVersion:        2
+
+ResolutionOfTime:   Volumes
+
+Experiment:         feedback
+
+BackgroundColor:    0 0 0
+TextColor:          255 255 255
+
+TimeCourseColor:    255 255 255
+TimeCourseThick:    3
+ReferenceFuncColor: 0 0 80
+ReferenceFuncThick: 3
+
+NrOfConditions:  4
+rest_r
+6
+    1   20
+   81  100
+  161  180
+  241  260
+  321  340
+  401  420
+Color: 115 28 149
+
+right
+6
+   21   40
+  101  120
+  181  200
+  261  280
+  341  360
+  421  440
+Color: 15 28 149
+
+
+rest_l
+6
+   41   60
+  121  140
+  201  220
+  281  300
+  361  380
+  441  460
+Color: 61 76 32
+
+r
+6
+    61   80
+   141  160
+   221  240
+   301  320
+   381  400
+   461  480
+Color: 61 76 32
+
+
+ConditionImageFolder: C:\Users\nirs\Desktop\hitachi\Protocol
+
+ConditionImageFiles: b_up-arrow.JPG r_up-arrow.JPG
+
+ConditionSequence:   1 2 3 4 1 2 3 4 1 2 3 4 1 2 3 4 1 2 3 4 1 2 3 4
+PerformanceCriteria: 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1
+ResponseConditions:  0
+

@@ -1,0 +1,37 @@
+
+FileVersion:        2
+
+ResolutionOfTime:   Volumes
+
+Experiment:         feedback
+
+BackgroundColor:    0 0 0
+TextColor:          255 255 255
+
+TimeCourseColor:    255 255 255
+TimeCourseThick:    3
+ReferenceFuncColor: 0 0 80
+ReferenceFuncThick: 3
+
+NrOfConditions:  2
+rest_r
+3
+   11   30
+   51   70
+   91  110
+Color:  4 86 176
+
+right
+3
+   31   50
+   71   90
+  111  130
+Color: 61 137 43
+
+ConditionSequence:   1 2 1 2 1 2
+PerformanceCriteria: 9 1 9 1 9 1
+Down_UP_Regulation:  0 1 0 1 0 1
+Thermo_image_seq:    1 1 1 1 1 1
+ResponseConditions:  0
+Initial_Rest:10
+BCI_file: 
